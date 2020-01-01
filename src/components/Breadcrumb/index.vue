@@ -4,8 +4,7 @@
       <el-breadcrumb-item
         v-for="(item,index)  in levelList"
         :key="item.path"
-        v-if="item.meta.title"
-      >
+        v-if="item.meta.title">
         <span
           v-if="(item.redirect==='noredirect') || (index === levelList.length-1)"
           class="no-redirect"

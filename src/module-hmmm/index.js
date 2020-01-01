@@ -9,6 +9,7 @@
 // vue-router
 import { asyncRouterMap } from '@/router'
 import routerMaps from './router'
+
 // vuex
 // import app from './store/app'
 
@@ -24,4 +25,5 @@ export default {
       // store.registerModule('app', app)
     }
   }
+ 
 }
