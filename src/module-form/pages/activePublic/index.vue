@@ -122,7 +122,7 @@ export default {
 .el-textarea {
   width: 100%;
 }
-.fa {
+/* .fa { */
   /* margin-left: 20px; */
-}
+/* } */
 </style>
